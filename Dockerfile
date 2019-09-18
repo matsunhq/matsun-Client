@@ -4,6 +4,4 @@ WORKDIR /matsun-Client
 
 COPY . .
 
-RUN npm install
-
-CMD ["npm", "start"]
+RUN yarn
